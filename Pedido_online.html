@@ -1,0 +1,160 @@
+<html>
+<head>
+    <style>
+
+body {
+    font-family: latha;
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.95), rgba(0,0,0,0.65), 
+    rgba(0,0,0,0), rgba(0,0,0,0)
+    )
+
+    ,url(xicarecafe.png)no-repeat;
+    background-size: cover;
+}
+        .box{ width: 988px;
+            float: right;
+            border: 1px solid none;}
+
+        .box ul li{
+        width: 120px;
+        float: left;
+        margin: 10px auto;
+        text-align: center;
+            }
+
+           .box ul li a{ text-decoration: none;
+        color: darkgray;}
+        .box ul li :hover{background-color: #fcccd4;}
+.box ul li a :hover{color: white;}
+.wd {
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.wd h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+
+}
+
+.wd h4 {
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px  auto;
+}
+
+.opt form, input [type='button']{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+form,input[type='button']:hover{background-color: #fcccd4;}
+    </style>
+</head>
+<body>
+<div class="box">
+  <ul type="none">
+ <li><a href="Untitled-1.html"> Inicio </a> </li>
+ <li><a href="Cardapio.html"> Cardapio</a> </li>
+    <li><a href="Pedido_online.html"> Pedido Online</a> </li>
+ <li><a href="Equipe.html"> Equipe</a> </li>
+<li><a href="Contato.html"> Contato </a> </li>
+</ul>
+</div>
+
+
+ </body>
+</html> 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedido Online</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+		form {
+			background-color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			margin: 0 auto;
+			width: 50%;
+		}
+		h1 {
+			text-align: center;
+			color: #555;
+		}
+		label {
+			display: block;
+			margin-top: 10px;
+			color: #888;
+		}
+		input[type="text"], select {
+			padding: 5px;
+			width: 100%;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 20px;
+		}
+		input[type="submit"] {
+			background-color: #e291b8;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulário de Pedido Online</h1>
+	<form>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" required>
+
+		<label for="email">E-mail:</label>
+		<input type="text" id="email" name="email" required>
+
+		<label for="bebida">Bebida:</label>
+		<select id="bebida" name="bebida">
+			<option value="cafe">Café</option>
+			<option value="capuccino">Cappuccino Italiano</option>
+			<option value="chocolate">Chocolate Quente</option>
+            <option value="chocolate">Moccatino de Chocolate</option>
+            <option value="chocolate">Moccatino de Doce de Leite</datagrid></option>
+		</select>
+
+		<label for="acucar">Açúcar:</label>
+		<input type="text" id="acucar" name="acucar" required>
+
+		<label for="observacao">Observações:</label>
+		<input type="text" id="observacao" name="observacao">
+
+		<input type="submit" value="Enviar Pedido">
+	</form>
+</body>
+</html>
